@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="registration_pro.php" method="post">
+            <label for="name">first_name</label> 
+            <input type="text" id="name" name="name" >
+
+            <label for="Surname">Surname</label>
+            <input type="text" id="Surname" name="Surname"  required><br><br>
+            
+            <label for="email">mail-id</label>
+            <input type="email" id="mail" name="mail" required><br><br>
+
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="birthdate">birthdate</label>
+            <input type="datetime" id="birthdate" name="birthdate"required><br><br>
+
+            <label for="gender">gender :</label>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female"required><br><br>
+
+            <label for="country">country</label>
+            <select id="country" name="country">
+                <option value="USA">USA</option>
+                <option value="America"> America</option>
+                <option value="japan">japan</option>
+            </selectrequired><br><br>
+
+            <label for="subscribe"> subscribe to channel</label>
+            <input type="checkbox" id="Subscribe" name="Subscribe" value="yes"required><br><br>
+
+            <label for="profile_picture">profile_picture</label>
+            <input type="file" id="profile_picture" name="profile_picture"required><br><br>
+
+            <input type="submit" value="Registration">
+
+        </form>
+    </body>
+</html>
